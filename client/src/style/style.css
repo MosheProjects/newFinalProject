@@ -1,0 +1,87 @@
+  
+  @media (min-width: 768px) {
+    .position-md-static {
+      position: static !important;
+    }
+    .position-md-relative {
+      position: relative !important;
+    }
+    .position-md-absolute {
+      position: absolute !important;
+    }
+    .position-md-fixed {
+      position: fixed !important;
+    }
+    .position-md-sticky {
+      position: sticky !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .position-lg-static {
+      position: static !important;
+    }
+    .position-lg-relative {
+      position: relative !important;
+    }
+    .position-lg-absolute {
+      position: absolute !important;
+    }
+    .position-lg-fixed {
+      position: fixed !important;
+    }
+    .position-lg-sticky {
+      position: sticky !important;
+    }
+  }
+  
+  .bg-light-indigo  {
+    background-color:#c5b3e6;
+  }
+
+  .bg-dark-blue :hover :active  :checked  :focus :enabled {
+    background-color:#1c4062;
+  }
+   .bg-dark-blue  {
+    background-color:#1c4062 !important;
+  }
+
+  .bg-nothing {
+    background-color:white;
+  }
+  .bg-nothing :hover :active :checked :focus :enabled {
+    background-color:white !important;
+  }
+
+  .nav-link {
+    color:white !important;
+  }
+  .nav-link :hover :active :checked :focus :enabled {
+    color :white  !important;
+  }
+  .navbar-nav .show > .nav-link{
+    color :white !important;
+  }
+
+  .text-nothing {
+    color:white;
+  }
+  .text-nothing :hover :active :checked :focus :enabled {
+    color :white !important;
+  }
+  
+  @media (min-width: 992px) {
+    .full-lg-page {
+      height:85vh;
+    }
+    .flex-lg-row {
+      flex-direction: row;
+    }
+  }
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+  body{
+    font-family: 'Rubik', sans-serif;
+  }

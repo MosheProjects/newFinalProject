@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Add a background color to the main page */
+  }
+  
+  /* Landing page styles */
+  .landing-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-top: 0;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .raffle-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .raffle-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .raffle-details {
+    margin-left: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .credit-card-form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .landing-page {
+      padding: 10px;
+    }
+    
+    .raffle-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .raffle-image img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
